@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Header css*/
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 6px solid #e100ff;
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; */
+}
+
+.navbar h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 600;
+  }
+
+ .navbar h2 a {
+    color: #fff;
+    text-decoration: none;
+ } 
+ .btn-light {
+  font-weight: 500;
+  border-radius: 5px;
+ }
+ .btn-light:hover {
+  background-color: #e100ff;
+  color: #fff;
+  border: none;
+}
+ 
+/*Footer CSS*/
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-top: 6px solid #e100ff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+
+  /* Card CSS Starts here */
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 20px 0px;
+  }
+  
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 0.5%;
+    margin: 1%;
+    width: 280px;
+    box-shadow: rgba(70, 70, 81, 0.2) 5px 7px 25px 0px;
+    border-radius: 12px;
+  }
+  
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+.text-center {
+    text-align: center;
+    margin: 20px;
+  }
+  
+.card-content {
+    padding: 15px 10px;
+  }
+  
+.price {
+    float: right;
+    color: #28a745;
+  }
+  
+
+  /*Register*/
+
+  .register-form {
+    max-width: 400px;
+    margin: 110px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .is-invalid {
+    border-color: red;
+  }
+  
+  .text-danger {
+    color: red;
+    font-size: 0.85rem;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background: #0056b3;
+  }
+  
+  /*Login*/
+
+  .login-form {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+
+  /* Cart CSS */
+
+  table img {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: #fff;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
